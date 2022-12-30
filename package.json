@@ -2,9 +2,11 @@
   "name": "codeep37-utils",
   "version": "1.0.0",
   "author": "codeep37",
+  "description": "common toolkit",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/codeep2/codeep37-utils"
   },
   "workspaces": [
     "packages/*"
