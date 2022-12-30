@@ -18,6 +18,10 @@ const Validate = {
    */
   emailCheck: (value) =>
     /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(value),
+  /**
+   * 银行卡校验
+   */
+  bankCardCheck: (value) => /^([1-9]{1})(\d{14}|\d{18})$/.test(value),
 };
 
 export default Validate;
