@@ -1,0 +1,15 @@
+{
+  "name": "codeep37-utils",
+  "version": "1.0.0",
+  "author": "codeep37",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^6.3.0"
+  }
+}
